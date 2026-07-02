@@ -14,7 +14,7 @@ public class isTriangle {
 
 			if (side1 == 0) {
 				break;
-				
+
 			}
 
 			int side2 = sc.nextInt();
@@ -43,7 +43,7 @@ public class isTriangle {
 				System.out.println("　銳角三角形\n");
 			}
 		}
-		sc.close();  // Java 建議關閉資源
+		sc.close(); // Java 建議關閉資源
 	}
 }
 
