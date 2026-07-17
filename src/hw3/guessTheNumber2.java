@@ -30,7 +30,7 @@ public class guessTheNumber2 {
 			} else if (guess < answer) {
 				System.out.println("　 哈哈!第" + count + "次猜錯囉！\n　 小發慈悲的告訴你，你的那個太小啦！\n");
 			} else {
-				System.out.println("　 答對了!答案就是" + guess + "！要爆炸了！！！！\n");
+				System.out.println("　 答對了!答案就是" + answer + "！要爆炸了！！！！\n");
 				break;
 			}
 		}
